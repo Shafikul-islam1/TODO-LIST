@@ -1,5 +1,5 @@
-const form = document.querySelector('#itemForm'); // select form
-const itemInput = document.querySelector('#itemInput'); // select input box from form
+const form = document.querySelector('#itemForm'); 
+const itemInput = document.querySelector('#itemInput'); 
 const itemList = document.querySelector('.item-list');
 const feedback = document.querySelector('.feedback');
 const clearButton = document.querySelector('#clear-list');
@@ -101,7 +101,7 @@ form.addEventListener('submit', function(e){
 
     });
 
-    //clear all items from the list
+    //clear all items from the list 
 clearButton.addEventListener('click', function(){
     todoItems = [];
     localStorage.clear();
