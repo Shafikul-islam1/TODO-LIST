@@ -93,8 +93,7 @@ form.addEventListener('submit', function(e){
         todoItems.push(itemName);
         setLocalStorage(todoItems);
         getList(todoItems);
-        //add event listeners to icons;
-        //handleItem(itemName);
+      
     }
     
     itemInput.value = '';
